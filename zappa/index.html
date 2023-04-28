@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Media and Viewport Tag -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Hub of Frank Zappa Facts and Oddities is a site dedicated to Frank Zappa, with features including a navigation bar, responsive layout, videos, a gallery and timeline using CSS.">
+    <!-- Web page title -->
+    <title>Zappa Facts and Oddities</title>
+    <link rel="stylesheet" type="text/css" href="zappa.css" />
+    <link rel="icon" type="image/png" href="flavSmall.png" />
+  </head>
+
+  <!-- Start body-->
+  <body>
+    <!-- Start Wrapper-->
+    <div id="wrapper">
+      <!-- Header area -->
+      <header>
+        <div class="header-container">
+          <h1>
+            <a href="index.html"
+              >Hub of <br />Frank Zappa <br />Facts and Oddities</a
+            >
+          </h1>
+        </div>
+        <img
+          src="bubble.png"
+          alt="Bubble in the style of Freak Out"
+          style="width: 200px; height: 100px"
+        />
+      </header>
+
+      <!-- Navigation area -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="gear.html">Gear</a></li>
+          <li><a href="quotes.html">Quotes</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main content area -->
+      <main>
+        <h2>Welcome to my Zappa hub</h2>
+
+        <!-- Paragraph content -->
+        <p>
+          This is a site to detail the life and legend of the American musician
+          and composer, Frank Zappa.
+        </p>
+        <img src="zappa_banner.jpg" alt="Zappa directs angrily" />
+        <p>
+          Frank Vincent Zappa was born on December 21, 1940 in Baltimore,
+          Maryland. In his career spanning 30 years, he was able to release 62
+          albums and an additional 57 posthumous albums. Zappa was renowned for
+          his work ethic, cutting satire, musical virtuosity, and diverse
+          experimentation.
+        </p>
+
+        <h3>Share your Zappa thoughts</h3>
+        <p>Be Frank...</p>
+
+        <form
+          method="post"
+          action="https://webdevbasics.net/scripts/pacific.php"
+        >
+          <label for="myName">*Name or Nickname:</label>
+          <input type="text" name="myName" id="myName" required />
+          <label for="myEmail">*Email:</label>
+          <input type="text" name="myFName" id="myFName" required />
+          <label for="myFave">Favorite Zappa work:</label>
+          <input type="text" name="myFave" id="myFave" />
+          <label for="myComments">*Comments:</label>
+          <textarea
+            name="myComments"
+            id="myComments"
+            rows="2"
+            cols="30"
+            required
+          >
+          </textarea>
+          <input type="submit" value="Submit" />
+        </form>
+        <small>I will attempt to respond via email
+            <a href="mailto:mhowar19@asu.edu">mhowar19@asu.edu</a>
+        </small>
+      </main>
+
+      <!-- Footer area -->
+      <footer>
+        <small
+          ><i
+            >Copyright &copy; 2023 <span class="resort">Zappa Hub</span>
+            <br />
+            <a href="mailto:mhowar19@asu.edu">mhowar19@asu.edu</a>
+          </i></small
+        >
+      </footer>
+
+      <!-- Closing Wrapper tag-->
+    </div>
+
+    <!-- Closing body tag is the 2nd last line of code-->
+  </body>
+  <!-- Closing html tag is the last line of code-->
+</html>
